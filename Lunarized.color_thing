@@ -1,0 +1,13 @@
+NAME:Lunarized
+FG_L:85.0
+FG_C:25.0
+FG_H:100.0
+BG_L:0.0
+BG_C:7.5
+BG_H:100.0
+L:55.0
+C:70.0
+H:20.0
+DIM:20.0
+OLED:True
+ACCENT:3

@@ -1,0 +1,100 @@
+/* cannibalized from solarized_alternate.rasi */
+* {
+    fg:      rgba (222, 213, 166, 100%);
+    bg:      rgba (0, 0, 0, 100%);
+    fgalt:   rgba (166, 159, 114, 100%);
+    bgalt:   rgba (51, 49, 38, 100%);
+    accent:  rgba (175, 122, 0, 100%);
+    active:  rgba (0, 145, 252, 100%);
+    urgent:  rgba (237, 67, 94, 100%);
+
+    background-color: @bg;
+    foreground-color: @fg;
+    text-color:       @fg;
+    border-color:     @accent;
+}
+window {
+    background-color: @accent;
+    border:           2px;
+}
+mainbox {
+}
+message {
+    border:       1px dash 0px 0px;
+    padding:      1px;
+}
+listview {
+    border:       2px 0px 0px;
+    spacing:      2px;
+    scrollbar:    true;
+}
+element {
+    padding: 5px;
+}
+element.normal.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.normal.urgent {
+    background-color: @bg;
+    text-color:       @urgent;
+}
+element.normal.active {
+    background-color: @bg;
+    text-color:       @active;
+}
+element.selected.normal {
+    background-color: @bgalt;
+    text-color:       @fg;
+}
+element.selected.urgent {
+    background-color: @bgalt;
+    text-color:       @urgent;
+}
+element.selected.active {
+    background-color: @bgalt;
+    text-color:       @active;
+}
+element.alternate.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.alternate.urgent {
+    background-color: @bg;
+    text-color:       @urgent;
+}
+element.alternate.active {
+    background-color: @bg;
+    text-color:       @active;
+}
+scrollbar {
+    handle-color: @accent;
+    handle-width: 12px;
+}
+mode-switcher {
+    border:       2px 0px 0px;
+}
+button.selected {
+}
+inputbar {
+    spacing:    0px;
+    padding:    5px;
+}
+case-indicator {
+    spacing:    0;
+    text-color: @urgent;
+}
+entry {
+    spacing:    0;
+}
+prompt {
+    spacing:    0;
+}
+textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 5px 0px 0px;
+}
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
