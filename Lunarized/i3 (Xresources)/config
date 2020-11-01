@@ -1,7 +1,7 @@
-set_from_resource $cursor i3wm.cursorColor #AF7A00
-set_from_resource $fg i3wm.foreground #DED5A6
+set_from_resource $cursor i3wm.cursorColor #AC7B0A
+set_from_resource $fg i3wm.foreground #D0C798
 set_from_resource $bg i3wm.background #000000
-set_from_resource $hl i3wm.highlightColor #333126
+set_from_resource $hl i3wm.highlightColor #28261B
 
 # class                 border  background text indicator child_border
 client.focused          $cursor $cursor    $bg  $bg       $cursor

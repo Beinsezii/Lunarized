@@ -1,12 +1,12 @@
 /* cannibalized from solarized_alternate.rasi */
 * {
-    fg:      rgba (222, 213, 166, 100%);
+    fg:      rgba (208, 199, 152, 100%);
     bg:      rgba (0, 0, 0, 100%);
-    fgalt:   rgba (166, 159, 114, 100%);
-    bgalt:   rgba (51, 49, 38, 100%);
-    accent:  rgba (175, 122, 0, 100%);
-    active:  rgba (0, 145, 252, 100%);
-    urgent:  rgba (237, 67, 94, 100%);
+    fgalt:   rgba (154, 146, 92, 100%);
+    bgalt:   rgba (40, 38, 27, 100%);
+    accent:  rgba (172, 123, 10, 100%);
+    active:  rgba (0, 143, 234, 100%);
+    urgent:  rgba (224, 82, 99, 100%);
 
     background-color: @bg;
     foreground-color: @fg;
@@ -30,6 +30,9 @@ listview {
 }
 element {
     padding: 5px;
+}
+elemt-icon{
+    size: 2ch;
 }
 element.normal.normal {
     background-color: @bg;

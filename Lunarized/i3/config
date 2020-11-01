@@ -1,8 +1,8 @@
-set $accent #AF7A00
-set $fg     #DED5A6
+set $accent #AC7B0A
+set $fg     #D0C798
 set $bg     #000000
-set $fgalt  #A69F72
-set $bgalt  #333126
+set $fgalt  #9A925C
+set $bgalt  #28261B
 
 # class                 border  background text indicator child_border
 client.focused          $accent $accent    $bg  $bg       $accent
