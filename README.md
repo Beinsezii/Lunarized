@@ -11,9 +11,20 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
  * Readability over style. Soft palettes this be not.
    * Still hopefully keep it not too avante-garde.
  * Black. Keep the base background pure black to help screen efficiency on oled/dynamic contrast displays. Think Android dark mode.
- * Compatibility. Not Solarized levels, but at least cover most of my own workflow.
+ * Compatibility. Not Solarized levels, but at least cover most of my own workflow. Currently includes everything exportable by [color_thing]:
+   * Alacritty
+   * Dwarf Fortress
+   * GIMP Palette
+   * i3
+   * Oomox
+     * GTK 2/3 theme + icons
+   * Rofi
+   * .Xresources
+    
 
 ### Okay show me
 
 <img src="./screenshots/Combined.png">
 <img src="./screenshots/Dwarf Fortress.png">
+
+[color_thing]: https://github.com/Beinsezii/color_thing
