@@ -15,6 +15,5 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
 
 ### Okay show me
 
-<img src="./screenshots/X11 Resources.png">
-<img src="./screenshots/Rofi.png">
+<img src="./screenshots/Combined.png">
 <img src="./screenshots/Dwarf Fortress.png">

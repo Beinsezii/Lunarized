@@ -1,0 +1,31 @@
+scheme:
+  Lunarized: &Lunarized
+    primary:
+      background: '#000000'
+      foreground: '#D0C798'
+
+    cursor:
+      text:   '#000000'
+      cursor: '#AC7B0A'
+
+    normal:
+      black:   '#000000'
+      red:     '#E05263'
+      green:   '#39963C'
+      yellow:  '#AC7B0A'
+      blue:    '#008FEA'
+      magenta: '#B166C7'
+      cyan:    '#009CA6'
+      white:   '#D0C798'
+
+    bright:
+      black:   '#28261B'
+      red:     '#AE7381'
+      green:   '#788A60'
+      yellow:  '#A27C5D'
+      blue:    '#4E8BAA'
+      magenta: '#8B7DA7'
+      cyan:    '#479087'
+      white:   '#9A925C'
+
+colors: *Lunarized
