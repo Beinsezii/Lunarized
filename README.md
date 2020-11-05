@@ -19,6 +19,7 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
    * Oomox
      * GTK 2/3 theme + icons
    * Rofi
+   * Vim Truecolor (WIP)
    * .Xresources
     
 
