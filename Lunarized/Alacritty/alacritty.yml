@@ -6,26 +6,26 @@ scheme:
 
     cursor:
       text:   '#000000'
-      cursor: '#AC7B0A'
+      cursor: '#D1A243'
 
     normal:
       black:   '#000000'
-      red:     '#E05263'
-      green:   '#39963C'
-      yellow:  '#AC7B0A'
-      blue:    '#008FEA'
-      magenta: '#B166C7'
-      cyan:    '#009CA6'
+      red:     '#FF8288'
+      green:   '#69BB66'
+      yellow:  '#D1A243'
+      blue:    '#00B2FF'
+      magenta: '#D68FE9'
+      cyan:    '#00C2C9'
       white:   '#D0C798'
 
     bright:
       black:   '#28261B'
-      red:     '#AE7381'
-      green:   '#788A60'
-      yellow:  '#A27C5D'
-      blue:    '#4E8BAA'
-      magenta: '#8B7DA7'
-      cyan:    '#479087'
+      red:     '#AA577E'
+      green:   '#6F7830'
+      yellow:  '#A5613F'
+      blue:    '#0080A5'
+      magenta: '#636EB2'
+      cyan:    '#008265'
       white:   '#9A925C'
 
 colors: *Lunarized

@@ -3,18 +3,18 @@ Name: Lunarized
 Columns: 8
 #
   0   0   0 color0
-224  82  99 color1
- 57 150  60 color2
-172 123  10 color3
-  0 143 234 color4
-177 102 199 color5
-  0 156 166 color6
+255 130 136 color1
+105 187 102 color2
+209 162  67 color3
+  0 178 255 color4
+214 143 233 color5
+  0 194 201 color6
 208 199 152 color7
  40  38  27 color8
-174 115 129 color9
-120 138  96 color10
-162 124  93 color11
- 78 139 170 color12
-139 125 167 color13
- 71 144 135 color14
+170  87 126 color9
+111 120  48 color10
+165  97  63 color11
+  0 128 165 color12
+ 99 110 178 color13
+  0 130 101 color14
 154 146  92 color15
