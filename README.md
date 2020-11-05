@@ -23,7 +23,7 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
    * .Xresources
     
 
-### Okay show me
+### Okay show me (Slightly outdated as of Revision 2)
 
 <img src="./screenshots/Combined.png">
 <img src="./screenshots/Dwarf Fortress.png">
