@@ -26,7 +26,7 @@ let s:c10 = '#AA577E'
 let s:c11 = '#6F7830'
 
 " Highlight groups
-" ## Built-in ##
+" ## Basic Built-Ins ##
 exe 'hi Normal guifg='.s:fg.' guibg='.s:bg
 exe 'hi NormalFloat guifg='.s:fg.' guibg='.s:bga
 exe 'hi NormalNC guifg='.s:fga
@@ -38,6 +38,9 @@ hi! link NonText LineNr
 
 exe 'hi Visual guifg='.s:bg.' guibg='.s:fg
 exe 'hi Search guifg='.s:bg.' guibg='.s:c1
+exe 'hi IncSearch guifg='.s:bg.' guibg='.s:c2.' gui=NONE'
+
+exe 'hi Folded guifg='.s:bga.' guibg='.s:fga
 
 exe 'hi Comment guifg='.s:fga
 
@@ -51,3 +54,18 @@ exe 'hi PreProc guifg='.s:c5
 exe 'hi Todo guifg='.s:c7.' guibg=NONE gui=bold'
 exe 'hi Special guifg='.s:c10.' gui=bold'
 exe 'hi Underlined guifg='.s:c11
+
+" ## Misc Built-in ##
+" ## Messages ##
+exe 'hi Question guifg='.s:c1.' guibg=NONE'
+hi! link ErrorMsg Error
+hi! link WarningMsg Special
+
+hi! link Title Type
+hi! link MoreMsg Identifier
+
+" ## Popup/completion menu ##
+hi! link Pmenu NormalFloat
+hi! link PmenuSel Cursor
+hi! link PmenuSbar Pmenu
+exe 'hi PmenuThumb guibg='.s:fga
