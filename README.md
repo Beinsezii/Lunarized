@@ -23,9 +23,10 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
    * .Xresources
     
 
-### Okay show me (Slightly outdated as of Revision 2)
+### Okay show me
 
-<img src="./screenshots/Combined.png">
-<img src="./screenshots/Dwarf Fortress.png">
+<img src="./screenshot.png">
+
+Screenshots & details for each app in their respective subfolder
 
 [color_thing]: https://github.com/Beinsezii/color_thing

@@ -42,6 +42,8 @@ exe 'hi IncSearch guifg='.s:bg.' guibg='.s:c2.' gui=NONE'
 
 exe 'hi Folded guifg='.s:bga.' guibg='.s:fga
 
+exe 'hi SignColumn guibg='.s:bga
+
 exe 'hi Comment guifg='.s:fga
 
 " ## Syntax ##
