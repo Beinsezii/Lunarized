@@ -13,6 +13,7 @@ So, I've decided to start work on Lunarized. It takes a similar 'highly function
  * Black. Keep the base background pure black to help screen efficiency on oled/dynamic contrast displays. Think Android dark mode.
  * Compatibility. Not Solarized levels, but at least cover most of my own workflow. Currently includes everything exportable by [color_thing]:
    * Alacritty
+   * Dunst
    * Dwarf Fortress
    * GIMP Palette
    * i3
