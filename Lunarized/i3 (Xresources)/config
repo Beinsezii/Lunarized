@@ -1,4 +1,4 @@
-set_from_resource $accent i3wm.cursorColor #D1A243
+set_from_resource $accent i3wm.cursorColor #D3A651
 set_from_resource $fg i3wm.foreground #D0C798
 set_from_resource $bg i3wm.background #000000
 set_from_resource $bgalt i3wm.highlightColor #28261B

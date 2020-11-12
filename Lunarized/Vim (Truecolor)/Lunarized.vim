@@ -10,20 +10,18 @@ let s:fg = '#D0C798'
 let s:bg = '#000000'
 let s:fga = '#9A925C'
 let s:bga = '#28261B'
+let s:ac = '#D3A651'
 
 " Numbered colors are in order of priority, with lower being higher. Used for syntax.
-let s:c0 = '#D1A243'
-let s:c1 = '#00B2FF'
-let s:c2 = '#D68FE9'
-let s:c3 = '#00C2C9'
-let s:c4 = '#FF8288'
-let s:c5 = '#69BB66'
-let s:c6 = '#A5613F'
-let s:c7 = '#0080A5'
-let s:c8 = '#636EB2'
-let s:c9 = '#008265'
-let s:c10 = '#AA577E'
-let s:c11 = '#6F7830'
+let s:constant = '#D3A651'
+let s:identifier = '#00C3CA'
+let s:statement = '#3BB5FF'
+let s:preproc = '#74BE70'
+let s:type = '#D696E7'
+let s:special = '#008868'
+let s:underlined = '#AF623C'
+let s:error = '#FF8A8F'
+let s:todo = '#B45684'
 
 " Highlight groups
 " ## Basic Built-Ins ##
@@ -31,14 +29,14 @@ exe 'hi Normal guifg='.s:fg.' guibg='.s:bg
 exe 'hi NormalFloat guifg='.s:fg.' guibg='.s:bga
 exe 'hi NormalNC guifg='.s:fga
 
-exe 'hi Cursor guifg='.s:bg.' guibg='.s:c0
+exe 'hi Cursor guifg='.s:bg.' guibg='.s:ac
 hi! link LineNr NormalNC
-exe 'hi CursorLineNr guifg='.s:c0
+exe 'hi CursorLineNr guifg='.s:ac
 hi! link NonText LineNr
 
-exe 'hi Visual guifg='.s:bg.' guibg='.s:fg
-exe 'hi Search guifg='.s:bg.' guibg='.s:c1
-exe 'hi IncSearch guifg='.s:bg.' guibg='.s:c2.' gui=NONE'
+exe 'hi Visual guifg='.s:bg.' guibg='.s:fga
+exe 'hi Search guifg='.s:bg.' guibg='.s:identifier
+exe 'hi IncSearch guifg='.s:bg.' guibg='.s:type.' gui=NONE'
 
 exe 'hi Folded guifg='.s:bga.' guibg='.s:fga
 
@@ -47,19 +45,19 @@ exe 'hi SignColumn guibg='.s:bga
 exe 'hi Comment guifg='.s:fga
 
 " ## Syntax ##
-exe 'hi Constant guifg='.s:c0
-exe 'hi Statement guifg='.s:c1
-exe 'hi Type guifg='.s:c2
-exe 'hi Identifier guifg='.s:c3
-exe 'hi Error guifg='.s:c4.' guibg=NONE gui=bold'
-exe 'hi PreProc guifg='.s:c5
-exe 'hi Todo guifg='.s:c7.' guibg=NONE gui=bold'
-exe 'hi Special guifg='.s:c10.' gui=bold'
-exe 'hi Underlined guifg='.s:c11
+exe 'hi Constant guifg='.s:constant
+exe 'hi Identifier guifg='.s:identifier
+exe 'hi Statement guifg='.s:statement
+exe 'hi PreProc guifg='.s:preproc
+exe 'hi Type guifg='.s:type
+exe 'hi Special guifg='.s:special.' gui=bold'
+exe 'hi Underlined guifg='.s:underlined.' guisp='.s:underlined
+exe 'hi Error guifg='.s:error.' guibg=NONE gui=bold'
+exe 'hi Todo guifg='.s:todo.' guibg=NONE gui=bold'
 
 " ## Misc Built-in ##
 " ## Messages ##
-exe 'hi Question guifg='.s:c1.' guibg=NONE'
+exe 'hi Question guifg='.s:statement' guibg=NONE'
 hi! link ErrorMsg Error
 hi! link WarningMsg Special
 

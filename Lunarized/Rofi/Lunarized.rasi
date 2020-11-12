@@ -4,9 +4,9 @@
     bg:      rgba (0, 0, 0, 100%);
     fgalt:   rgba (154, 146, 92, 100%);
     bgalt:   rgba (40, 38, 27, 100%);
-    accent:  rgba (209, 162, 67, 100%);
-    active:  rgba (0, 178, 255, 100%);
-    urgent:  rgba (255, 130, 136, 100%);
+    accent:  rgba (211, 166, 81, 100%);
+    active:  rgba (59, 181, 255, 100%);
+    urgent:  rgba (255, 138, 143, 100%);
 
     background-color: @bg;
     foreground-color: @fg;
