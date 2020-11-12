@@ -1,0 +1,14 @@
+[urgency_low]
+    background = "#000000"
+    foreground = "#9A925C"
+    frame_color = "#9A925C"
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#D0C798"
+    frame_color = "#D0C798"
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#D0C798"
+    frame_color = "#D3A651"
