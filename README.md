@@ -1,7 +1,7 @@
 # Lunarized
 For when Solarized is too hard on the eyes.
 
-Currently unstable. Palette changes on the table. Pre-release *3*
+Currently unstable. Palette changes on the table. Pre-release *4*
 
 ### What..?
 So I really like Solarized, but lately I've been more prone to headaches late at night, which is coincidentally when I do most of my programming. Solarized also has the hidden detriment that it fights low blue light filters, as it's basically pure blue.

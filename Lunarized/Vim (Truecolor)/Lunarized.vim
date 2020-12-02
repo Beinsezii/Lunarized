@@ -10,18 +10,18 @@ let s:fg = '#D0C798'
 let s:bg = '#000000'
 let s:fga = '#9A925C'
 let s:bga = '#28261B'
-let s:ac = '#D3A651'
+let s:ac = '#D3A350'
 
 " Numbered colors are in order of priority, with lower being higher. Used for syntax.
-let s:constant = '#D3A651'
-let s:identifier = '#00C3CA'
-let s:statement = '#3BB5FF'
-let s:preproc = '#74BE70'
-let s:type = '#D696E7'
-let s:special = '#008868'
-let s:underlined = '#AF623C'
-let s:error = '#FF8A8F'
-let s:todo = '#B45684'
+let s:constant = '#D3A350'
+let s:identifier = '#00C2C9'
+let s:statement = '#2EAFFF'
+let s:preproc = '#73BC6F'
+let s:type = '#D493E6'
+let s:special = '#00876A'
+let s:underlined = '#AC6544'
+let s:error = '#FF898E'
+let s:todo = '#B05B84'
 
 " Highlight groups
 " ## Basic Built-Ins ##
